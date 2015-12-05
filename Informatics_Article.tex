@@ -12,7 +12,7 @@
 % 171 Second Street, Suite 300
 % San Francisco, California, 94105, USA.
 
-\documentclass[a4paper,english,british]{scrartcl}
+\documentclass[a4paper,british]{scrartcl}
 % Package import declarations
 \usepackage{fixltx2e}	% LaTeX2e patch
 \usepackage{ifpdf}	% Checks if PDFTeX is used
@@ -26,7 +26,7 @@
 \usepackage[T1]{fontenc}	% Set Type 1 output encoding
 \usepackage{csquotes}	% Direct quoting
 \usepackage{babel}	% Typesetting for multiple languages (declare language in document class declaration)
-\usepackage[backend=bibtex8,sorting=nyt,babel=hyphen]{biblatex}	% Use BibLaTeX for
+\usepackage[backend=bibtex8,sorting=nyt,autolang=hyphen]{biblatex}	% Use BibLaTeX for
 % citations
 % \addbibresource{}	% Load a bibliography resource for use by BibLaTeX
 \usepackage{varioref}	% Dynamic references, e.g. "see x on page 3"
@@ -152,3 +152,8 @@
 % \printbibliography	% Uncomment to insert BibLaTeX bibliography
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
