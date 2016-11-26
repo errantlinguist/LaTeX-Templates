@@ -114,8 +114,7 @@
 \newcommand{\lingsubtag}[1]{\textsubscript{\lingtag{#1}}}	% Format for word subscript tag containing linguistic information
 \newcommand{\lingform}[3][]{#1\textit{#2}\lingsubtag{#3}}	% Format for
 % object-language text with evaluation metadata and tag, e.g. "!dog_nP"
-\newcommand{\lingconstituent}[2]{\textnormal{[}\lingsubtag{#1}
-\lingform{#2}{}\textnormal{]}}
+\newcommand{\lingconstituent}[2]{\textnormal{[}\lingsubtag{#1}\lingform{#2}{}\textnormal{]}}
 % Linguistic constituent with tag, e.g. "[NP dog]"
 
 \newcommand{\evaluation}[2][]{\ensuremath{\llbracket #2\rrbracket^{#1}}}	%
